@@ -11,7 +11,7 @@
 11        return sum;
 12    }
 13    int addDigits(int num) {
-14        int ans = 0;
+14        int ans;
 15        while(num >= 10){
 16            ans = sumOfDigits(num);
 17            num = ans;
